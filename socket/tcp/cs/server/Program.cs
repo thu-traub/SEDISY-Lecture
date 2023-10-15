@@ -15,5 +15,5 @@ Socket cl = s.Accept();
 StreamReader rd = new StreamReader(new NetworkStream(cl));
 string? data = rd.ReadLine();
 System.Console.WriteLine(data);
-
+rd.Close();
 s.Close();
