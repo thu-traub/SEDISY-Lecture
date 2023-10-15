@@ -1,0 +1,11 @@
+#!/bin/bash
+
+protocol=$1
+side=$2
+
+if test "$side" == ""; then
+    echo "usage: $0 protocol side"
+    exit 1
+    fi
+
+javac "$protocol/java/$side/$side.java" && java -cp "$protocol/java/$side" $side
