@@ -17,6 +17,16 @@ where lang:
 - `js` for JavaScript
 - `c` for C language
 
+and protocol:
+
+- tcp
+- udp
+
+and side:
+
+- server
+- client
+
 For examples, open two windows and type
 
     .\runcs.ps1 tcp server
@@ -26,8 +36,6 @@ and
     .\runpy tcp client
 
 This launches a TCP server in C# and a Python client.
-
-**Note: C is now supported on Windows**
 
 # Linux
 
