@@ -27,7 +27,7 @@ and
 
 This launches a TCP server in C# and a Python client.
 
-**Note: C is not supported yet in Windows**
+**Note: C is not supported yet on Windows**
 
 # Linux
 
